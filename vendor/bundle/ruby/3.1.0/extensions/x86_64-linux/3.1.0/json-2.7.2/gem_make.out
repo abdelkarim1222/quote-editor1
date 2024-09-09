@@ -1,0 +1,13 @@
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+/home/abdelkarim/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/abdelkarim/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20240909-32207-xzw7r.rb extconf.rb
+creating Makefile
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= clean
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\=
+make: rien à faire pour « all ».
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= install

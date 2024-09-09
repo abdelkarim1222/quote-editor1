@@ -1,0 +1,15 @@
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/home/abdelkarim/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/abdelkarim/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20240909-32207-vnber1.rb extconf.rb
+creating Makefile
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240909-32207-6i8trl
