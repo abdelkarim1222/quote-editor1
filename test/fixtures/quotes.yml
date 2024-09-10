@@ -6,10 +6,21 @@ one:
 two:
   name: MyString
 first:
+  company: kpmg
   name: First quote
 
 second:
+  company: kpmg
   name: Second quote
 
 third:
+  company: kpmg
   name: Third quote
+
+valid_quote:
+  content: MyString
+  company_id: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+catering_today:
+  name: "Special Event Catering"
