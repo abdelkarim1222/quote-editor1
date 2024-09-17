@@ -1,24 +1,49 @@
-# README
+# **Hotrails: The Turbo Rails Tutorial** 💎🛤️⚡
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a modern, single-page, reactive web applications with Ruby on Rails 7 without writing any custom JavaScript code. Built in the turbo rails tutorial: [Hotrails](https://www.hotrails.dev/).
 
-Things you may want to cover:
+## ⚙️ **Setting up the project**
 
-* Ruby version
+First of all, you need to install the **Ruby 3.0.X** version. You can use the [**rvm**](https://rvm.io/) or [**asdf**](https://asdf-vm.com/) for this.
 
-* System dependencies
+You also need to install the **PostgreSQL server** and start it:
 
-* Configuration
+```
+sudo service postgresql start
+```
 
-* Database creation
+With the **Ruby** installed, and the **PostgreSQL** service running, you need to install all the projects dependecies and setup the database:
+```
+bin/setup
+```
 
-* Database initialization
+### **Starting Redis server**
 
-* How to run the test suite
+Start you Redis server (you can use the [asdf-redis plugin](https://github.com/smashedtoatoms/asdf-redis) to install it) with the command below to make **Action Cable** work locally:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+redis-server
+```
 
-* Deployment instructions
+### **Running migrations**
 
-* ...
+You need to modify your database schema according to the project schema:
+
+```
+bin/rails db:migrate
+```
+
+### **Populating the development database**
+
+You can populate your development database with sample data:
+
+```
+bin/rails db:seed
+```
+
+## 🏃‍♂ **Running the project**
+
+To run the project in the http://localhost:3000, run the command below:
+```
+bin/dev
+```
