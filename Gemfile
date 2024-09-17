@@ -19,7 +19,7 @@ gem "cssbundling-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
-# gem "redis", ">= 4.0.1"
+gem "redis", ">= 4.0.1"
 gem "simple_form"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
@@ -50,6 +50,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "byebug"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 

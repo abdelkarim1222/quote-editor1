@@ -1,0 +1,19 @@
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+/home/abdelkarim/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/abdelkarim/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20240916-8783-qy53dx.rb extconf.rb
+creating Makefile
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= clean
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\=
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/abdelkarim/ruby/quote-editor1/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20240916-8783-su83jf/byebug
